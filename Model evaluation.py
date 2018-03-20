@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Mar 19 11:15:20 2018
+Created on Tue Mar 20 10:42:29 2018
 
 @author: Mohammadsuzan.Shaikh
 """
@@ -24,3 +24,4 @@ def auc_gini(dv,pred):
     auc=met.roc_auc_score(dv,pred)
     gini=(2*auc)-1
     return auc,gini
+#-------------------

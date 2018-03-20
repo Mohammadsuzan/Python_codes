@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Mar 19 11:14:37 2018
+Created on Tue Mar 20 10:43:09 2018
 
 @author: Mohammadsuzan.Shaikh
 """
 
-'''Outlier detection function'''
 def mean_replacement(dat):
     print('This function calculates outlier which are 3 standard deviation from mean and replace them by mean of remaining data')
     for col in dat:
